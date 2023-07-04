@@ -12,6 +12,7 @@ struct ContentView: View {
         TabView {
             VStack {
                 Text("welcome")
+                Text("New World Order")
             }
         }
     }
