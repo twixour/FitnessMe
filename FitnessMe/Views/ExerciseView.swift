@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct ExerciseView: View {
+    let videoNames = ["man", "girl", "twoBoys", "biceps"]
+    let exerciseNames = ["Man", "Girl", "Two Boys", "Biceps"]
+    
+    let index: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(exerciseNames[index])
     }
 }
 
 struct ExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseView()
+        ExerciseView(index: 0)
     }
 }
