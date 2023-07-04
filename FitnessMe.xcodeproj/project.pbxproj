@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E481F9372A54769A00DC985A /* man.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9332A54768D00DC985A /* man.mp4 */; };
+		E481F9382A54769A00DC985A /* biceps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9342A54769300DC985A /* biceps.mp4 */; };
+		E481F9392A54769A00DC985A /* girl.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9352A54769600DC985A /* girl.mp4 */; };
+		E481F93A2A54769A00DC985A /* twoBoys.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9362A54769A00DC985A /* twoBoys.mp4 */; };
+		E481F93D2A547F1900DC985A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481F93C2A547F1900DC985A /* HeaderView.swift */; };
 		E48701442A5402420008014F /* FitnessMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701432A5402420008014F /* FitnessMeApp.swift */; };
 		E48701462A5402420008014F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701452A5402420008014F /* ContentView.swift */; };
 		E48701482A5402430008014F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48701472A5402430008014F /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E481F9332A54768D00DC985A /* man.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = man.mp4; sourceTree = "<group>"; };
+		E481F9342A54769300DC985A /* biceps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = biceps.mp4; sourceTree = "<group>"; };
+		E481F9352A54769600DC985A /* girl.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girl.mp4; sourceTree = "<group>"; };
+		E481F9362A54769A00DC985A /* twoBoys.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = twoBoys.mp4; sourceTree = "<group>"; };
+		E481F93C2A547F1900DC985A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E48701402A5402420008014F /* FitnessMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48701432A5402420008014F /* FitnessMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMeApp.swift; sourceTree = "<group>"; };
 		E48701452A5402420008014F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E481F93B2A5476A700DC985A /* VideosGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E481F9342A54769300DC985A /* biceps.mp4 */,
+				E481F9352A54769600DC985A /* girl.mp4 */,
+				E481F9332A54768D00DC985A /* man.mp4 */,
+				E481F9362A54769A00DC985A /* twoBoys.mp4 */,
+			);
+			path = VideosGroup;
+			sourceTree = "<group>";
+		};
 		E48701372A5402420008014F = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +79,7 @@
 				E48701432A5402420008014F /* FitnessMeApp.swift */,
 				E4A1D2AD2A540670006140ED /* Views */,
 				E48701472A5402430008014F /* Assets.xcassets */,
+				E481F93B2A5476A700DC985A /* VideosGroup */,
 				E48701492A5402430008014F /* Preview Content */,
 			);
 			path = FitnessMe;
@@ -77,6 +99,7 @@
 				E48701452A5402420008014F /* ContentView.swift */,
 				E4A1D2A92A540657006140ED /* WelcomeView.swift */,
 				E4A1D2AB2A54065E006140ED /* ExerciseView.swift */,
+				E481F93C2A547F1900DC985A /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,8 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E481F9372A54769A00DC985A /* man.mp4 in Resources */,
 				E487014B2A5402430008014F /* Preview Assets.xcassets in Resources */,
 				E48701482A5402430008014F /* Assets.xcassets in Resources */,
+				E481F9392A54769A00DC985A /* girl.mp4 in Resources */,
+				E481F9382A54769A00DC985A /* biceps.mp4 in Resources */,
+				E481F93A2A54769A00DC985A /* twoBoys.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E481F93D2A547F1900DC985A /* HeaderView.swift in Sources */,
 				E4A1D2AC2A54065E006140ED /* ExerciseView.swift in Sources */,
 				E48701462A5402420008014F /* ContentView.swift in Sources */,
 				E4A1D2AA2A540657006140ED /* WelcomeView.swift in Sources */,
