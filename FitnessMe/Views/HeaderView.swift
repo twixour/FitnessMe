@@ -26,6 +26,13 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(exerciseName: "Man")
+        Group {
+            HeaderView(exerciseName: "Man")
+                .previewLayout(.sizeThatFits)
+            HeaderView(exerciseName: "Man")
+                .preferredColorScheme(.dark)
+                .environment(\.sizeCategory, .accessibilityLarge)
+                .previewLayout(.sizeThatFits)
+        }
     }
 }
