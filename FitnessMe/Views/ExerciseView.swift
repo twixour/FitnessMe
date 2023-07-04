@@ -14,6 +14,7 @@ struct ExerciseView: View {
     let index: Int
     var body: some View {
         Text(exerciseNames[index])
+        
     }
 }
 
