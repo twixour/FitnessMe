@@ -13,6 +13,11 @@ struct ContentView: View {
             VStack {
                 Text("welcome")
                 Text("New World Order")
+                HStack {
+                    Text("New things added horzontally")
+                        .padding(20)
+                    Text("See for yourself")
+                }
             }
         }
     }
