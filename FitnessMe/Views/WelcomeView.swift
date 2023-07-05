@@ -18,14 +18,27 @@ struct WelcomeView: View {
             }
             
             VStack {
-                HStack {
+                HStack(alignment: .bottom) {
                     VStack(alignment: .leading) {
                         Text("Get fit")
                             .font(.largeTitle)
                         Text("with high intensity interval training")
                             .font(.headline)
                     }
+                    Image("step-up")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 240.0, height: 240.0)
+                        .clipShape(Circle())
                 }
+                Button(action:{}) {
+                    Text("Get Started")
+                    Image(systemName: "arrow.right.circle")
+                }
+                .font(.title2)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 20)
+                    .stroke(Color.gray, lineWidth: 2))
             }
         }
     }
