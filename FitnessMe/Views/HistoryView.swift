@@ -14,26 +14,33 @@ struct HistoryView: View {
     let exercise1 = ["Man", "Girl", "Two Boys", "Biceps"]
     let exercise2 = ["Man", "Girl", "Two Boys"]
     var body: some View {
-        VStack {
-            Text("History")
-                .font(.title)
-                .padding()
-            
-            Form {
-                Section(header:
-                            Text(today, format: Date.FormatStyle().day().month())
-                    .font(.headline)) {
-                        ForEach(exercise1, id:\.self) {exercise in
-                            Text(exercise)
-                        }
-                }
-            
-                Section(header:
-                            Text(yesterday, format: Date.FormatStyle().day().month())
-                    .font(.headline)) {
-                        ForEach(exercise2, id:\.self) {exercise in
-                            Text(exercise)
-                        }
+        ZStack(alignment: .topTrailing) {
+            Button(action: {}) {
+                Image(systemName: "xmark.circle")
+            }
+            .font(.title)
+            .padding(.trailing)
+            VStack {
+                Text("History")
+                    .font(.title)
+                    .padding()
+                
+                Form {
+                    Section(header:
+                                Text(today, format: Date.FormatStyle().day().month())
+                        .font(.headline)) {
+                            ForEach(exercise1, id:\.self) {exercise in
+                                Text(exercise)
+                            }
+                    }
+                
+                    Section(header:
+                                Text(yesterday, format: Date.FormatStyle().day().month())
+                        .font(.headline)) {
+                            ForEach(exercise2, id:\.self) {exercise in
+                                Text(exercise)
+                            }
+                    }
                 }
             }
         }
