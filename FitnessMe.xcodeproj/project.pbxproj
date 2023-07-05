@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		E413599D2A55161700EDC110 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413599C2A55161700EDC110 /* RatingView.swift */; };
 		E413599F2A5517A200EDC110 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E413599E2A5517A200EDC110 /* HistoryView.swift */; };
-		E481F9372A54769A00DC985A /* man.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9332A54768D00DC985A /* man.mp4 */; };
-		E481F9382A54769A00DC985A /* biceps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9342A54769300DC985A /* biceps.mp4 */; };
-		E481F9392A54769A00DC985A /* girl.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9352A54769600DC985A /* girl.mp4 */; };
-		E481F93A2A54769A00DC985A /* twoBoys.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E481F9362A54769A00DC985A /* twoBoys.mp4 */; };
+		E41359A42A5535C300EDC110 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E41359A02A5535BE00EDC110 /* squat.mp4 */; };
+		E41359A52A5535C300EDC110 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E41359A12A5535BE00EDC110 /* burpee.mp4 */; };
+		E41359A62A5535C300EDC110 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E41359A22A5535C200EDC110 /* step-up.mp4 */; };
+		E41359A72A5535C300EDC110 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E41359A32A5535C300EDC110 /* sun-salute.mp4 */; };
 		E481F93D2A547F1900DC985A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481F93C2A547F1900DC985A /* HeaderView.swift */; };
 		E48701442A5402420008014F /* FitnessMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701432A5402420008014F /* FitnessMeApp.swift */; };
 		E48701462A5402420008014F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701452A5402420008014F /* ContentView.swift */; };
@@ -25,10 +25,10 @@
 /* Begin PBXFileReference section */
 		E413599C2A55161700EDC110 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		E413599E2A5517A200EDC110 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		E481F9332A54768D00DC985A /* man.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = man.mp4; sourceTree = "<group>"; };
-		E481F9342A54769300DC985A /* biceps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = biceps.mp4; sourceTree = "<group>"; };
-		E481F9352A54769600DC985A /* girl.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girl.mp4; sourceTree = "<group>"; };
-		E481F9362A54769A00DC985A /* twoBoys.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = twoBoys.mp4; sourceTree = "<group>"; };
+		E41359A02A5535BE00EDC110 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		E41359A12A5535BE00EDC110 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		E41359A22A5535C200EDC110 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		E41359A32A5535C300EDC110 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 		E481F93C2A547F1900DC985A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E48701402A5402420008014F /* FitnessMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48701432A5402420008014F /* FitnessMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMeApp.swift; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		E481F93B2A5476A700DC985A /* VideosGroup */ = {
 			isa = PBXGroup;
 			children = (
-				E481F9342A54769300DC985A /* biceps.mp4 */,
-				E481F9352A54769600DC985A /* girl.mp4 */,
-				E481F9332A54768D00DC985A /* man.mp4 */,
-				E481F9362A54769A00DC985A /* twoBoys.mp4 */,
+				E41359A12A5535BE00EDC110 /* burpee.mp4 */,
+				E41359A02A5535BE00EDC110 /* squat.mp4 */,
+				E41359A22A5535C200EDC110 /* step-up.mp4 */,
+				E41359A32A5535C300EDC110 /* sun-salute.mp4 */,
 			);
 			path = VideosGroup;
 			sourceTree = "<group>";
@@ -168,12 +168,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E481F9372A54769A00DC985A /* man.mp4 in Resources */,
 				E487014B2A5402430008014F /* Preview Assets.xcassets in Resources */,
 				E48701482A5402430008014F /* Assets.xcassets in Resources */,
-				E481F9392A54769A00DC985A /* girl.mp4 in Resources */,
-				E481F9382A54769A00DC985A /* biceps.mp4 in Resources */,
-				E481F93A2A54769A00DC985A /* twoBoys.mp4 in Resources */,
+				E41359A52A5535C300EDC110 /* burpee.mp4 in Resources */,
+				E41359A62A5535C300EDC110 /* step-up.mp4 in Resources */,
+				E41359A72A5535C300EDC110 /* sun-salute.mp4 in Resources */,
+				E41359A42A5535C300EDC110 /* squat.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
