@@ -18,6 +18,7 @@
 		E45073962A553B87006CCB7D /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45073952A553B87006CCB7D /* SuccessView.swift */; };
 		E45073982A554390006CCB7D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45073972A554390006CCB7D /* Exercise.swift */; };
 		E450739A2A5545F4006CCB7D /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45073992A5545F4006CCB7D /* HistoryStore.swift */; };
+		E450739C2A554899006CCB7D /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450739B2A554899006CCB7D /* HistoryStoreDevData.swift */; };
 		E481F93D2A547F1900DC985A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481F93C2A547F1900DC985A /* HeaderView.swift */; };
 		E48701442A5402420008014F /* FitnessMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701432A5402420008014F /* FitnessMeApp.swift */; };
 		E48701462A5402420008014F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48701452A5402420008014F /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 		E45073952A553B87006CCB7D /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		E45073972A554390006CCB7D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		E45073992A5545F4006CCB7D /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		E450739B2A554899006CCB7D /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		E481F93C2A547F1900DC985A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E48701402A5402420008014F /* FitnessMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48701432A5402420008014F /* FitnessMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessMeApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E487014A2A5402430008014F /* Preview Assets.xcassets */,
+				E450739B2A554899006CCB7D /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				E45073962A553B87006CCB7D /* SuccessView.swift in Sources */,
 				E4A1D2AC2A54065E006140ED /* ExerciseView.swift in Sources */,
 				E450739A2A5545F4006CCB7D /* HistoryStore.swift in Sources */,
+				E450739C2A554899006CCB7D /* HistoryStoreDevData.swift in Sources */,
 				E48701462A5402420008014F /* ContentView.swift in Sources */,
 				E45073942A553AF9006CCB7D /* DateExtension.swift in Sources */,
 				E45073982A554390006CCB7D /* Exercise.swift in Sources */,

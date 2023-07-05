@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct HistoryView: View {
-    let today = Date()
-    let yesterday = Date().addingTimeInterval(-86400)
-    
-    let exercise1 = ["Man", "Girl", "Two Boys", "Biceps"]
-    let exercise2 = ["Man", "Girl", "Two Boys"]
+    let history = HistoryStore()
     var body: some View {
         ZStack(alignment: .topTrailing) {
             Button(action: {}) {
@@ -26,21 +22,31 @@ struct HistoryView: View {
                     .padding()
                 
                 Form {
-                    Section(header:
-                                Text(today, format: Date.FormatStyle().day().month())
-                        .font(.headline)) {
-                            ForEach(exercise1, id:\.self) {exercise in
+                    ForEach(history.exerciseDays) {day in
+                        Section(
+                            header:
+                                Text(day.date, format: Date.FormatStyle().day().month())
+                        ) {
+                            ForEach(day.exercises, id:\.self) {exercise in
                                 Text(exercise)
                             }
+                        }
                     }
-                
-                    Section(header:
-                                Text(yesterday, format: Date.FormatStyle().day().month())
-                        .font(.headline)) {
-                            ForEach(exercise2, id:\.self) {exercise in
-                                Text(exercise)
-                            }
-                    }
+//                    Section(header:
+//                                Text(today, format: Date.FormatStyle().day().month())
+//                        .font(.headline)) {
+//                            ForEach(exercise1, id:\.self) {exercise in
+//                                Text(exercise)
+//                            }
+//                    }
+//
+//                    Section(header:
+//                                Text(yesterday, format: Date.FormatStyle().day().month())
+//                        .font(.headline)) {
+//                            ForEach(exercise2, id:\.self) {exercise in
+//                                Text(exercise)
+//                            }
+//                    }
                 }
             }
         }
