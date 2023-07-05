@@ -32,21 +32,6 @@ struct HistoryView: View {
                             }
                         }
                     }
-//                    Section(header:
-//                                Text(today, format: Date.FormatStyle().day().month())
-//                        .font(.headline)) {
-//                            ForEach(exercise1, id:\.self) {exercise in
-//                                Text(exercise)
-//                            }
-//                    }
-//
-//                    Section(header:
-//                                Text(yesterday, format: Date.FormatStyle().day().month())
-//                        .font(.headline)) {
-//                            ForEach(exercise2, id:\.self) {exercise in
-//                                Text(exercise)
-//                            }
-//                    }
                 }
             }
         }
